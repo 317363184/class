@@ -1,6 +1,6 @@
 # There are fsz's homework
 
-|      工程名称      |                             连接                             |
+|      工程名称      |                             链接                             |
 | :----------------: | :----------------------------------------------------------: |
 |   **Chapter 1**    |                                                              |
 |     HelloWorld     | [点此进入](https://github.com/317363184/class/tree/master/HelloWorld) |

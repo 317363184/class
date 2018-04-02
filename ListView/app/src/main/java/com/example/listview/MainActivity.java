@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         init();
         AnimalAdapter adapter = new AnimalAdapter(MainActivity.this, R.layout.animal, animals);
-        ListView listview = (ListView) findViewById(R.id.list_view);
+        final ListView listview = (ListView) findViewById(R.id.list_view);
         listview.setAdapter(adapter);
 
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, a.getName(), Toast.LENGTH_SHORT).show();
             }
         });
+
+
+
 
     }
 
@@ -46,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         animals.add(Dog);
         Animal Cat = new Animal("Cat", R.drawable.cat);
         animals.add(Cat);
-        Animal Elephant = new Animal("lion", R.drawable.elephant);
+        Animal Elephant = new Animal("Elephant", R.drawable.elephant);
         animals.add(Elephant);
 
     }
