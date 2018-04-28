@@ -15,4 +15,8 @@
 |    AlertDialog     | [点此进入](https://github.com/317363184/class/tree/master/AlertDialog) |
 |      MenuTest      | [点此进入](https://github.com/317363184/class/tree/master/MenuTest_xml) |
 |     ActionMode     | [点此进入](https://github.com/317363184/class/tree/master/ContextActionModeTest) |
+|   **Chapter 5**    |                                                              |
+| PreferenceFragment | [点此进入](https://github.com/317363184/class/tree/master/PrefereceFragment) |
+
+
 
