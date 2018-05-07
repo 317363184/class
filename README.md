@@ -17,6 +17,10 @@
 |     ActionMode     | [点此进入](https://github.com/317363184/class/tree/master/ContextActionModeTest) |
 |   **Chapter 5**    |                                                              |
 | PreferenceFragment | [点此进入](https://github.com/317363184/class/tree/master/PrefereceFragment) |
+|   **Chapter 6**    |                                                              |
+|       Intent       | [点此进入](https://github.com/317363184/class/tree/master/Intent) |
+
+
 
 
 
