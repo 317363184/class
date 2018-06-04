@@ -19,6 +19,8 @@
 | PreferenceFragment | [点此进入](https://github.com/317363184/class/tree/master/PrefereceFragment) |
 |   **Chapter 6**    |                                                              |
 |       Intent       | [点此进入](https://github.com/317363184/class/tree/master/Intent) |
+|    **期中实验**    |                                                              |
+|      NotePad       | [点此进入](https://github.com/317363184/class/tree/master/NotePad) |
 
 
 
