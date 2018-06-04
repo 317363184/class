@@ -17,7 +17,7 @@ Android期中实验
 
 ## **基本要求**
 
-#### 笔记时间戳
+#### 1.笔记时间戳
 
 页面截图
 
@@ -28,7 +28,7 @@ Android期中实验
 因为数据库中已有时间字段，所以只需要格式化时间存入即可 NoteEditor.updateNote()函数中修改 SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
 values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, df.format(new Date()));
 
-#### 笔记查询
+#### 2.笔记查询
 
 页面截图
 
@@ -73,7 +73,7 @@ private void addSearchView() { //给listview添加头部(search)
 
 ## **附加功能**
 
-#### UI美化
+#### 1.UI美化
 
 页面截图
 
@@ -95,7 +95,7 @@ case R.id.blanchedalmond:
                 return true;
 ```
 
-#### 更改笔记背景
+#### 2.更改笔记背景
 
 页面截图
 
@@ -139,7 +139,7 @@ AlertDialog.Builder builder=new AlertDialog.Builder(NotesList.this);
     builder.setView(view).create().show();
 ```
 
-#### 快捷记录（点击粘贴后自动生成一个新的笔记并将粘贴板里内容记录下来）
+#### 3.快捷记录（点击粘贴后自动生成一个新的笔记并将粘贴板里内容记录下来）
 
 页面截图
 
